@@ -1,0 +1,449 @@
+.navbar-primero {
+    background-color: #f8f9fa; /* Fondo claro */
+    height: 60px;
+    padding: 10px 20px; 
+    font-family: sans-serif
+    
+}
+
+
+
+/* Estilo para el logo */
+.navbar-primero .navbar-brand img {
+    max-height: 40px;
+}
+
+
+/* Estilo del formulario de búsqueda */
+.search-form input {
+    border-radius: 20px;
+    width: 300px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.search-form .btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.search-form input:focus,
+.search-form .btn-custom:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Estilos para cada icono */
+.nav-link {
+    color: #007bff;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilo para el ícono y texto de ubicación */
+.nav-link i {
+    margin-right: 5px;
+}
+
+/* Estilo para el Dropdown de País */
+.dropdown .dropdown-toggle {
+    color: #418fde;
+}
+
+.dropdown-menu {
+    min-width: 150px;
+    font-size: 12px;
+}
+
+/* Estilos para las notificaciones y el carrito */
+.position-relative .badge {
+    font-size: 12px;
+    padding: 4px 6px;
+    
+}
+
+.navbar-primero .badge {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+/* Estilo para el ícono de Login */
+.navbar-primero .nav-link i.bi-person-fill {
+    font-size: 12px;
+    color: #418fde;
+}
+
+/* Color de letra general para todo el navbar */
+.navbar-primero {
+    color: #333; /* Color general de las letras */
+}
+
+/* Color de los enlaces y otros elementos que heredan el color general */
+.navbar-primero .nav-link,
+.navbar-primero .dropdown-item,
+.navbar-primero .btn-custom,
+.navbar-primero .position-relative .badge {
+    color: inherit;
+}
+
+/* Estilo del texto del botón de búsqueda */
+.search-form .btn-custom {
+    background: #418fde;
+    border: radius 80px;
+    padding: 20;
+}
+
+.search-form .btn-custom i {
+    font-size: 1.2rem; /* Ajusta el tamaño del ícono */
+    color: #ffffff; /* Cambia el color del ícono según tus preferencias */
+}
+
+
+/* Color al pasar el mouse en los enlaces del navbar */
+.navbar-primero .nav-link:hover,
+.navbar-primero .dropdown-item:hover {
+    color: #007bff;
+}
+
+/* Color de fondo y color de texto en los badges de notificaciones y carrito */
+.navbar-primero .position-relative .badge {
+    background-color: #cd0000; /* Fondo del badge */
+    color: #ffffff; /* Texto del badge */
+}
+
+/* Color de los enlaces y otros elementos que heredan el color general */
+.navbar-primero .nav-link,
+.navbar-primero .dropdown-item,
+.navbar-primero .btn-custom,
+.navbar-primero .position-relative .badge {
+    color: #418fde;
+}
+
+
+
+
+/* segundo Navbar */
+
+.navbar-segundo {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 40px;
+    background-color: #418fde;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+
+
+  
+  .navbar li {
+    display: flex;
+    height: 5px;
+    text-align: center;
+}
+  
+.navbar li a {
+    color: white;
+    padding: 2px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center; /* Centra verticalmente iconos y texto en el enlace */
+    justify-content: center; /* Centra horizontalmente iconos y texto en el enlace */
+}
+  .navbar li a i {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+  }
+  
+  .navbar li a:hover {
+    background-color: #418fde;
+  }
+
+
+
+
+/* tercer Navbar */
+.navbar-tercero {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 40px;
+    background-color: #e3eff7;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+
+
+  .navbar-tercero li {
+    display: flex;
+    height: 10px;
+    text-align: center;
+}
+  
+.navbar-tercero li a {
+    color: #418fde;
+    padding: 2px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center; /* Centra verticalmente iconos y texto en el enlace */
+    justify-content: center; /* Centra horizontalmente iconos y texto en el enlace */
+}
+  .navbar-tercero li a i {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+  }
+
+
+  /* Estilo para el logo */
+.navbar-tercero .navbar-brand img {
+    max-height: 40px; /* Altura máxima del logo */
+    transition: transform 0.3s ease-in-out;  /* Animación de zoom */
+  
+}
+
+
+.navbar-tercero .navbar-brand img:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+}
+
+
+/* Responsividad del navbar para diferentes tamaños */
+@media (max-width: 992px) {
+    .navbar-tercero .nav-link {
+        font-size: 0.9rem; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+}
+
+
+  /* Ajuste del tamaño y posición del carrusel */
+#carouselExample {
+    max-width: 460px; /* Ajusta el ancho */
+    max-height: 300px; /* Ajusta la altura */
+    margin: 20px auto; /* Centra el carrusel horizontalmente */
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 120px; /* Ajusta la posición del carrusel */
+}
+
+/* Imagen dentro del carrusel */
+#carouselExample img {
+    height: 100%; /* Asegura que ocupe la altura completa */
+    object-fit: cover;
+}
+
+/* Estilo para el contenedor de formulario */
+.input-group {
+    max-width: 400px; /* Ajustar el ancho */
+    margin: 100 auto; /* Centrar el formulario */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo claro para contraste */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    margin-left: -150px;
+   
+}
+
+/* Estilo para el input de teléfono */
+.form-control {
+    border: 1px solid #ddd; /* Cambiar el borde a gris claro */
+    padding: 10px; /* Ajuste de padding para mejor aspecto */
+}
+
+/* Personalización del dropdown */
+.dropdown-toggle {
+    font-weight: 400; /* Peso de la fuente */
+    color: #333; /* Color del texto */
+}
+
+.dropdown-menu {
+    background-color: #418fde; /* Fondo de la lista */
+    border-radius: 8px; /* Bordes redondeados para el menú */
+}
+
+/* Botón personalizado */
+.btn-primary {
+    background-color: #418fde;
+    border-color: #418fde;
+    padding: 8px 16px;
+}
+
+.btn-primary:hover {
+    background-color: #033468; /* Cambiar color al pasar el mouse */
+}
+
+/* Estilo para el contenedor del dropdown */
+.dropdown {
+    margin-right: 8px; /* Espacio entre el dropdown y el input */
+}
+
+#countryDropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 15px; /* Tamaño de fuente más legible */
+    margin-right: 4px;
+}
+
+/* Imagen debajo del formulario */
+.img-formulario {
+    margin-top: 8px; /* Espacio para separar del formulario */
+    border-radius: 8px;
+    max-width: 400px;
+    display: block;
+    margin-left: -150px;
+    margin-right: auto;
+}
+
+
+
+
+
+ /* Contenedor del carrusel */
+   /* Contenedor del carrusel */
+   .carousel-container {
+    display: flex;
+    overflow-x: scroll; /* Permite el desplazamiento horizontal */
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+    gap: 10px; /* Espacio entre imágenes */
+  }
+
+  /* Imágenes del carrusel */
+  .carousel-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    scroll-snap-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  /* Efecto de hover */
+  .carousel-container img:hover {
+    transform: scale(1.05);
+  }
+
+  /* Media query para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .carousel-container {
+      justify-content: space-around;
+    }
+    .carousel-container img {
+      max-width: 45%; /* Ajusta el tamaño de las imágenes en pantallas pequeñas */
+    }
+  }
+
+  /* Estilo texto carrusel 2*/
+  figure {
+    text-align: center;
+  }
+  
+  figcaption, p {
+    font-size: 10px;
+    color: #000000;
+    margin-top: 8px;
+  }
+  
+  
+  
+
+  /* Estilo del carrusel publicidad3*/
+
+
+
+
+/*footer */
+
+
+.footer {
+    background-color: #033468;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los enlaces del footer */
+.footer-link {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el texto del footer */
+.footer-text {
+    color: #ddd;
+}
+
+/* Estilo para el borde del hr */
+hr.border-light {
+    border-color: #ffffff;
+}
+
+.text-center {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para la imagen del chatbot */
+.chatbot-image img {
+    width: 90px;
+    height: 100px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 10px rgba(189, 64, 64, 0.2);
+    position: fixed;
+    bottom: 20px; /* Asegura que esté a 20px de la parte inferior */
+    right: 20px;   /* Asegura que esté a 20px del lado izquierdo */
+    z-index: 9999;
+    transition: transform 0.3s ease;
+  
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
